@@ -1,3 +1,5 @@
+> 这是 v1.0.0 历史稿。请使用 [v2.0.0 公众号发表版](../wechat/Hermes文献下载_公众号发表稿.md)，其中已更新 PMC 2026 年服务调整后的自动获取说明。
+
 # 用 Hermes Agent 下载研究文献：从第一篇 PDF 到批量归档的完整攻略
 
 ![封面：用 Hermes Agent 下载研究文献](../images/00-cover.png)
