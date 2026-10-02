@@ -1,0 +1,4 @@
+﻿input_row,title,doi,pmid,unique_id,result
+1,Attention Is All You Need,10.48550/arXiv.1706.03762,,U1,example_unique
+2,Aplastic Anemia,,30354958,U2,example_same_as_row_3
+3,Aplastic Anemia,10.1056/NEJMra1413485,,U2,example_same_as_row_2

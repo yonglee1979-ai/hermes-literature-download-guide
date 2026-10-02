@@ -1,247 +1,216 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hermes Agent 文献下载 公众号图文教程</title><meta name="description" content="从安装到研究文献获取、核验和批量归档的中文教程，附清晰操作图与可复制提示词。"><style>*{box-sizing:border-box}html{background:#edf4f4}body{margin:0;font-family:"PingFang SC","Heiti SC",sans-serif;color:#253d45;font-size:17px;line-height:1.85}main{max-width:740px;margin:30px auto;background:white;padding:36px 30px}h1{font-size:28px;line-height:1.5;letter-spacing:.3px;color:#173c49;margin:0 0 24px}h2{font-size:23px;line-height:1.5;margin:42px 0 22px;color:#117d7c;padding:0 0 10px;border-bottom:2px solid #d7eae7}h3{font-size:19px;line-height:1.5;margin:27px 0 12px}p{margin:17px 0}p:has(img){margin:28px 0 8px}img{display:block;width:100%;height:auto;border-radius:8px}p:has(img)+p{margin:0 0 22px}em{font-style:normal;color:#6e8188;font-size:14px;line-height:1.7}a{color:#197b82;overflow-wrap:anywhere;text-decoration:underline;text-underline-offset:3px}pre{position:relative;white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;background:#173b49;color:#e2f8f0;padding:46px 18px 19px;font-size:14px;line-height:1.8;border-radius:9px;margin:20px 0}code{font-family:Menlo,Consolas,monospace;font-size:.88em}p code,li code{color:#145f63;background:#edf5f4;padding:2px 5px;border-radius:4px}blockquote{position:relative;background:#f0f8f6;border-left:3px solid #159185;margin:20px 0;padding:42px 18px 16px;font-size:16px;line-height:1.85;overflow-wrap:anywhere}blockquote p{margin:0}strong{font-weight:650}table{border-collapse:collapse;width:100%;font-size:14px;margin:22px 0;table-layout:fixed}td,th{border:1px solid #d7e5e6;padding:10px;overflow-wrap:anywhere;vertical-align:top}th{text-align:left;background:#e5f2ef}th:first-child,td:first-child{width:42%}ul,ol{padding-left:25px}li{margin:8px 0}.toolbar{background:#eff7f6;padding:13px 17px;font-size:14px;margin-bottom:25px;line-height:1.65}.toolbar button,.copy{cursor:pointer;background:white;border:1px solid #a8ceca;color:#176a68;padding:5px 11px;border-radius:5px;font-size:13px}.copy{position:absolute;right:8px;top:8px}.toolbar a{margin-left:12px}.toast{display:none;background:#e6f5f1;color:#116454;position:fixed;bottom:24px;left:20px;right:20px;padding:12px;z-index:30;font-size:14px;border-radius:8px;text-align:center}@media(max-width:600px){html{background:white}main{margin:0;padding:24px 20px}h1{font-size:25px}h2{font-size:22px;margin-top:36px}body{font-size:17px}blockquote{font-size:16px}pre{font-size:14px}}@page{size:A4;margin:14mm 15mm 16mm}@media print{body{font-size:12.5px;line-height:1.65}html{background:white}main{max-width:none;margin:0;padding:0}h1{font-size:24px}h2{font-size:18px;margin:22px 0 12px;border:0;padding:0;break-after:avoid}h3{font-size:15px;break-after:avoid}p{margin:8px 0;orphans:3;widows:3}p:has(img){break-inside:avoid;break-after:avoid;margin:10px 0 5px}p:has(img)+p{break-before:avoid;font-size:10px;margin-bottom:10px}img{width:auto;max-width:100%;max-height:380px;margin:auto}em{font-size:10px}pre{font-size:10.5px;line-height:1.6;padding:12px 15px;break-inside:avoid}blockquote{padding:12px 15px;font-size:11.5px;line-height:1.7;break-inside:avoid}table{font-size:11px}tr{break-inside:avoid}.toolbar,.copy,.toast{display:none}li{margin:4px 0}}</style></head><body><main><div class="toolbar"><button id="copy-article">复制公众号正文</button><a href="wechat/Hermes文献下载_公众号发表稿.docx">Word 稿</a><a href="wechat/Hermes文献下载_公众号发表稿.pdf">PDF</a><br>电脑浏览器打开后可复制正文；图片粘贴结果以公众号编辑器为准。</div><article id="article"><h1>用 Hermes Agent 下载研究文献 从安装到批量归档的图文教程</h1>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hermes Agent 文献下载 公众号图文教程</title><meta name="description" content="从安装到研究文献获取、核验和批量归档的中文教程，附清晰操作图与可复制提示词。"><style>*{box-sizing:border-box}html{background:#edf4f4}body{margin:0;font-family:"PingFang SC","Heiti SC",sans-serif;color:#253d45;font-size:17px;line-height:1.85}main{max-width:740px;margin:30px auto;background:white;padding:36px 30px}h1{font-size:28px;line-height:1.5;letter-spacing:.3px;color:#173c49;margin:0 0 24px}h2{font-size:23px;line-height:1.5;margin:42px 0 22px;color:#117d7c;padding:0 0 10px;border-bottom:2px solid #d7eae7}h3{font-size:19px;line-height:1.5;margin:27px 0 12px}p{margin:17px 0}p:has(img){margin:28px 0 8px}img{display:block;width:100%;height:auto;border-radius:8px}p:has(img)+p{margin:0 0 22px}em{font-style:normal;color:#6e8188;font-size:14px;line-height:1.7}a{color:#197b82;overflow-wrap:anywhere;text-decoration:underline;text-underline-offset:3px}pre{position:relative;white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;background:#173b49;color:#e2f8f0;padding:46px 18px 19px;font-size:14px;line-height:1.8;border-radius:9px;margin:20px 0}code{font-family:Menlo,Consolas,monospace;font-size:.88em;overflow-wrap:anywhere;word-break:break-word}p code,li code{color:#145f63;background:#edf5f4;padding:2px 5px;border-radius:4px}blockquote{position:relative;background:#f0f8f6;border-left:3px solid #159185;margin:20px 0;padding:42px 18px 16px;font-size:16px;line-height:1.85;overflow-wrap:anywhere}blockquote p{margin:0}strong{font-weight:650}table{border-collapse:collapse;width:100%;font-size:14px;margin:22px 0;table-layout:fixed}td,th{border:1px solid #d7e5e6;padding:10px;overflow-wrap:anywhere;vertical-align:top}th{text-align:left;background:#e5f2ef}th:first-child,td:first-child{width:42%}ul,ol{padding-left:25px}li{margin:8px 0}.toolbar{background:#eff7f6;padding:13px 17px;font-size:14px;margin-bottom:25px;line-height:1.65}.toolbar button,.copy{cursor:pointer;background:white;border:1px solid #a8ceca;color:#176a68;padding:5px 11px;border-radius:5px;font-size:13px}.copy{position:absolute;right:8px;top:8px}.toolbar a{margin-left:12px}.toc{background:#f3f8f7;padding:12px 17px;margin-bottom:22px;font-size:14px}.toc summary{cursor:pointer}.toc nav a{display:block;margin:8px 0;text-decoration:none}.toast{display:none;background:#e6f5f1;color:#116454;position:fixed;bottom:24px;left:20px;right:20px;padding:12px;z-index:30;font-size:14px;border-radius:8px;text-align:center}@media(max-width:600px){html{background:white}main{margin:0;padding:24px 20px}h1{font-size:25px}h2{font-size:22px;margin-top:36px}body{font-size:17px}blockquote{font-size:16px}pre{font-size:14px}}@page{size:A4;margin:14mm 15mm 16mm}@media print{body{font-size:12.5px;line-height:1.65}html{background:white}main{max-width:none;margin:0;padding:0}h1{font-size:24px}h2{font-size:18px;margin:22px 0 12px;border:0;padding:0;break-after:avoid}h3{font-size:15px;break-after:avoid}p{margin:8px 0;orphans:3;widows:3}p:has(img){break-inside:avoid;break-after:avoid;margin:10px 0 5px}p:has(img)+p{break-before:avoid;font-size:10px;margin-bottom:10px}img{width:auto;max-width:100%;max-height:380px;margin:auto}em{font-size:10px}pre{font-size:10.5px;line-height:1.6;padding:12px 15px;break-inside:avoid}blockquote{padding:12px 15px;font-size:11.5px;line-height:1.7;break-inside:avoid}table{font-size:11px}tr{break-inside:avoid}.toolbar,.copy,.toast,.toc{display:none}li{margin:4px 0}}</style></head><body><main><div class="toolbar"><button id="copy-article">复制公众号正文</button><a href="wechat/Hermes文献下载_公众号发表稿.docx">Word 稿</a><a href="wechat/Hermes文献下载_公众号发表稿.pdf">PDF</a><a href="wechat/公众号发表操作指南.html">发表指南</a><a href="mobile.html">手机版</a><a href="downloads/hermes-mobile-reader.epub">EPUB</a><br>电脑浏览器打开后可复制正文；图片粘贴结果以公众号编辑器为准。</div><details class="toc"><summary>按步骤跳转（12 节）</summary><nav><a href="#step-01">01 先确认你要找的是哪篇论文</a><a href="#step-02">02 打开终端，分清两种输入位置</a><a href="#step-03">03 安装并确认命令可用</a><a href="#step-04">04 配置模型、工具和文件位置</a><a href="#step-05">05 先做一次环境检查</a><a href="#step-06">06 下载第一篇，再自己打开验收</a><a href="#step-07">07 医学文献：题录与全文分开获取</a><a href="#step-08">08 用 CSV 练习去重和小批下载</a><a href="#step-09">09 只有研究主题，先生成候选清单</a><a href="#step-10">10 核验全文，记录状态与版本</a><a href="#step-11">11 按失败环节排查，再续做</a><a href="#step-12">12 跑通一篇，再带入自己的课题</a></nav></details><article id="article"><h1>用 Hermes Agent 下载研究文献：从第一篇 PDF 到文献库</h1>
 <p><img src="wechat/images/00-cover.png" alt="Hermes Agent 文献下载图文教程封面"></p>
-<p>找到了论文题名，接下来往往还有一串工作：核对是不是要找的那篇，打开全文入口，保存 PDF，改文件名，再把来源和版本记下来。</p>
-<p>几篇论文可以手动整理；几十篇论文一起处理时，最容易出问题的往往是最后几步。下载文件夹里多了几个 PDF，却说不清它们对应哪条文献、从哪里取得、是不是正式发表版。</p>
-<p><strong>Hermes Agent 可以把检索、获取、核验和归档连接起来。使用时，把任务和验收标准一起交给它，结果会更容易检查。</strong></p>
-<p>这篇教程以 Nous Research 的 Hermes Agent 为例，先完成一篇公开论文的下载，再练习医学文献和清单处理。每一步都写明在哪里输入、具体怎么做、完成后检查什么。正文提示词可以整段复制。</p>
-<p><em>适用范围：本机命令行入门；已使用桌面端的读者也可参考任务提示词。官方文档核对日期为 2026 年 10 月 2 日。本文提示词是任务模板，不是新增的 Hermes 命令。</em></p>
-<h2>01 先认识 Hermes 和文献下载这件事</h2>
-<p>Hermes Agent 是一个可以调用工具执行任务的 AI 助手。模型负责理解任务；网页工具负责找资料；终端和文件工具负责执行下载、保存和整理。本文的文献流程，是将这些能力组合起来使用。<a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/tools/">Hermes 官方工具说明</a></p>
-<p>可以把一次文献获取任务分成四步：</p>
-<ol>
-<li><strong>确认身份</strong>：用题名、作者、年份和标识符确认论文。</li>
-<li><strong>寻找全文</strong>：查期刊官网、公开仓储或机构订阅入口。</li>
-<li><strong>保存文件</strong>：把真实全文写入指定文件夹。</li>
-<li><strong>核验归档</strong>：检查内容与版本，并记录来源和处理状态。</li>
-</ol>
-<p>下载结束后，应当拿到全文文件和一份清单；未取得全文的文献，也应保留原因。这样下一次只需要补齐未完成项。</p>
-<p>几个常见标识符先分清：<strong>DOI</strong> 用来标识学术作品；<strong>PMID</strong> 是 PubMed 的记录编号；<strong>PMCID</strong> 是 PMC 的全文记录编号；<strong>arXiv 编号</strong>标识 arXiv 记录，并可带有 v1、v2 等版本号。它们有助于定位文章，但有编号并不意味着一定有可下载的 PDF。</p>
-<h2>02 跟着操作时 先分清两个输入位置</h2>
-<p>本文会交替使用两个地方：<strong>电脑终端</strong>和<strong>Hermes 对话输入区</strong>。这是新手最容易混淆的一步。</p>
-<p><img src="wechat/images/01-inputs.png" alt="图1 电脑终端和 Hermes 对话输入区的使用区别"></p>
-<p><em>图1｜操作指令卡。安装与配置命令在电脑终端输入；文献任务在启动 Hermes 后输入。</em></p>
-<p><strong>在电脑终端输入的内容</strong>，通常像 <code>hermes setup</code>、<code>hermes tools</code>、<code>hermes</code>。macOS 可以通过系统搜索打开“终端”；Windows 打开 PowerShell 或 Windows Terminal 的 PowerShell 标签页。</p>
-<p><strong>发给 Hermes 的内容</strong>，通常是一段自然语言，例如“请下载这篇论文并保存清单”。先启动 Hermes，看到对话输入提示后再粘贴任务。</p>
-<p>文章中的命令块没有附加 <code>$</code>、<code>PS&gt;</code> 或 <code>❯</code>，复制时直接使用块内文字。一个命令执行完再执行下一个；自然语言提示词则可以整段发送。终端里需要手动换行输入时，可参考官方说明使用 Alt+Enter 或 Ctrl+J。<a href="https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/#multi-line-input">Hermes 多行输入说明</a></p>
-<h2>03 安装 Hermes 并确认命令可以运行</h2>
-<p>准备好三样东西：一台电脑、可用的网络、一个可以在 Hermes 中配置的模型服务。模型推理和部分网页服务可能收费，额度以你实际选择的服务为准。第一次只处理一篇论文，便于观察用量和排查问题。</p>
-<p>如果喜欢安装包，可以从 <a href="https://hermes-agent.nousresearch.com/">Hermes 官方网站</a> 进入桌面端下载页面，按系统选择。下面使用命令行路线，后面的步骤都按这条路线展开。</p>
-<p><img src="wechat/images/02-install.png" alt="图2 macOS 和 Windows 的官方安装命令"></p>
-<p><em>图2｜官方安装命令指令卡。两种系统选择其一；请从下面的正文复制完整命令。</em></p>
-<p><strong>macOS、Linux 或 WSL2</strong>，在电脑终端输入：</p>
+<p>找到了论文题名，接下来还有核对身份、寻找全文、保存文件、记录来源等工作。几篇可以手动整理；数量多了，容易出现“下载了文件，却不知道对应哪条文献”的问题。</p>
+<p><strong>Hermes Agent 可以把检索、保存、核验和归档连接起来。任务里同时写明操作要求和完成标准，结果才容易检查。</strong> 本文从打开终端开始，先练习一篇公开论文，再处理医学文献和批量清单。命令从正文复制；以“请……”开头的任务，发到启动后的 Hermes 对话中。</p>
+<p>跟做顺序：<strong>安装 → 配置 → 环境检查 → 单篇下载 → 清单处理 → 核验归档。</strong> 新手按第 02 至 06 节完成第一轮；已装好 Hermes，先做第 05 节检查。配套手机版与本稿正文一致，支持分节跳转、复制任务和放大图片。</p>
+<p><em>适用范围：Nous Research 的 Hermes Agent，本机命令行入门。官方文档核对日期：2026 年 10 月 2 日。操作图为指引；真实页面截图另有标注。</em></p>
+<h2 id="step-01">01 先确认你要找的是哪篇论文</h2>
+<p>Hermes 的模型负责理解任务，网页工具负责找资料，终端和文件工具负责实际保存。本文将这些能力组合成文献流程，并非新增的“论文下载”内置命令。<a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/tools/">官方工具说明</a></p>
+<p>准确编号比宽泛主题更容易核对：DOI 标识学术作品；PMID 是 PubMed 题录编号；PMCID 是 PMC 全文记录编号；arXiv 编号还可以带版本后缀。<strong>有编号，不等于有可下载的 PDF。</strong></p>
+<p><img src="wechat/images/14-identifiers.png" alt="图1 文献标识符对照"></p>
+<p><em>图1｜标识符对照图，非软件截图。题名、作者、年份与编号应在题录中相互核对。</em></p>
+<p>只有题名时，同时提供作者或年份；有 DOI、PMID 时保留完整编号。取得全文后，记录来源和实际版本。来源只提供 HTML、XML 或 TXT 时，按真实格式保存，不能改名为 PDF。</p>
+<h2 id="step-02">02 打开终端，分清两种输入位置</h2>
+<p>macOS 按 <code>⌘ + 空格</code>，搜索“终端”并打开；Windows 从开始菜单搜索 PowerShell，或打开 Windows Terminal 的 PowerShell 标签页。</p>
+<p><img src="wechat/images/15-open-terminal.png" alt="图2 打开终端与进入 Hermes"></p>
+<p><em>图2｜系统操作指引，非软件截图。先运行电脑命令，再进入 Hermes 对话。</em></p>
+<p><strong>电脑终端</strong>输入安装、配置和启动命令，如 <code>hermes setup</code>、<code>hermes tools</code>、<code>hermes</code>。<strong>Hermes 对话输入区</strong>粘贴自然语言任务，如“请下载这篇论文并保存清单”。一个命令执行完再输入下一个；命令块内没有附加提示符，可以直接复制。</p>
+<h2 id="step-03">03 安装并确认命令可用</h2>
+<p>准备电脑、网络和一种可在 Hermes 配置的模型服务。模型和部分网页服务可能收费，先用一篇论文练习。</p>
+<p><strong>先核对系统支持。</strong> 当前官方表列出 Apple Silicon macOS、Windows、Linux 支持；Intel macOS 当前不受支持。架构和依赖以<a href="https://hermes-agent.nousresearch.com/docs/getting-started/platform-support/">官方平台表</a>为准。已有安装先试 <code>hermes --help</code>。</p>
+<p><img src="wechat/images/02-install.png" alt="图3 官方安装命令"></p>
+<p><em>图3｜安装指令卡。按系统选一条，从正文复制完整命令。</em></p>
+<p>macOS、Linux 或 WSL2，在电脑终端输入：</p>
 <pre><code class="language-bash">curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 </code></pre>
-<p><strong>Windows 原生 PowerShell</strong>，在 PowerShell 输入：</p>
+<p>Windows 原生 PowerShell 输入：</p>
 <pre><code class="language-powershell">iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 </code></pre>
-<p>这两条是官方提供的在线安装脚本命令。安装过程中按提示完成；结束后关闭并重新打开终端，输入：</p>
+<p>按官方脚本提示安装，结束后重新打开终端，输入：</p>
 <pre><code class="language-text">hermes --help
 </code></pre>
-<p><strong>完成标准：终端能显示 Hermes 的命令帮助。</strong> 如果出现“command not found”或“不被识别”，先按官方安装指南检查安装结果和 PATH，重新打开终端后再试。<a href="https://hermes-agent.nousresearch.com/docs/getting-started/installation/">官方安装指南</a></p>
-<h2>04 配好模型 工具和工作文件夹</h2>
-<h3>第一步 配置一个能正常回答的模型</h3>
-<p>首次使用，在电脑终端输入：</p>
+<p><strong>完成标准：显示 Hermes 命令帮助。</strong> 出现“command not found”或“不被识别”，按<a href="https://hermes-agent.nousresearch.com/docs/getting-started/installation/">官方安装指南</a>检查安装与 PATH。</p>
+<h2 id="step-04">04 配置模型、工具和文件位置</h2>
+<h3>先让模型正常回答</h3>
+<p>在电脑终端输入：</p>
 <pre><code class="language-text">hermes setup
 </code></pre>
-<p>按照向导选择模型服务并完成认证。如果已有配置、只想切换模型，使用 <code>hermes model</code>。已选择 Nous Portal 方案的读者，也可以按官方说明使用 <code>hermes setup --portal</code>；这是另一条配置路线，无须把这些命令全部重复运行。<a href="https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/">官方快速入门</a></p>
-<p>认证时使用向导提供的流程。API Key 应在配置环节填写，不要粘贴到论文下载提示词里。</p>
-<h3>第二步 让文献任务需要的工具可用</h3>
+<p>按向导选择服务、认证和模型；已有配置只切换模型时用 <code>hermes model</code>。API Key 填在配置环节，不粘贴到论文任务里。不同服务的账号和 Key 不能互换，聊天会员也不自动代表有 API 权限。</p>
+<p><img src="wechat/images/16-model-auth.png" alt="图4 选择模型与认证"></p>
+<p><em>图4｜配置指引，非软件截图。菜单以当前向导为准。</em></p>
+<p>当前官方快速入门要求模型上下文至少 <strong>64K tokens</strong>，自建模型尤其要确认。配置好后启动 Hermes，发送“请仅回复：准备好了”；能正常回答再检查工具。<a href="https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/">官方快速入门</a></p>
+<h3>再确认搜索、读取和保存能力</h3>
 <p>在电脑终端输入：</p>
 <pre><code class="language-text">hermes tools
 </code></pre>
-<p>为本文使用的 CLI 平台配置网页搜索、终端执行和文件操作。需要点击网页或处理动态页面时，再配置浏览器工具。</p>
-<p>网页搜索配置中可找到 <strong>Web Search &amp; Extract</strong>。搜索用于找入口，网页内容提取用于读取页面，实际保存 PDF 还需要终端或其他下载能力。某些服务只支持搜索；如果提取工具报告“search-only backend”，按配置向导或文档增加可提取网页内容的服务。当前文档提供多种服务和部分无密钥路线，免费路线仍可能受到限流；不要把“无需单独密钥”理解为无限使用。<a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/web-search/">官方网页工具配置</a></p>
-<p><img src="wechat/images/03-setup.png" alt="图3 模型工具和工作目录的配置顺序"></p>
-<p><em>图3｜配置顺序图。每一步完成后做一次小检查，再进入文献下载。</em></p>
-<h3>第三步 在专用文件夹里启动 Hermes</h3>
-<p>本篇新手练习采用 <strong>local 终端后端</strong>，任务在本机执行。请在 <code>hermes setup terminal</code> 中确认后端；新建练习环境若要明确使用本机，可以在电脑终端运行：</p>
+<p>为本文的 CLI 平台配置网页搜索、内容提取、终端和文件工具；需要点击或动态页面时再配置浏览器。搜索返回链接、提取读到题录、文件实际保存，是三个不同结果。</p>
+<p><img src="wechat/images/17-tool-matrix.png" alt="图5 文献任务需要的工具"></p>
+<p><em>图5｜工具能力图，非软件截图。逐项确认实际能力。</em></p>
+<p>网页配置中的 <strong>Web Search &amp; Extract</strong> 可以提供搜索和提取。出现“search-only backend”，按向导增加提取服务。部分路线无需单独密钥，仍可能限流。<a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/web-search/">网页工具配置</a></p>
+<h3>最后在专用文件夹启动</h3>
+<p>本教程采用 <strong>local 本机后端</strong>。在 <code>hermes setup terminal</code> 核对；新建练习环境要明确使用本机时，可依次运行：</p>
 <pre><code class="language-text">hermes config set terminal.backend local
 hermes config set terminal.cwd .
 </code></pre>
-<p>已经使用 Docker、SSH 或云端环境的读者，应根据自己的运行环境安排工作目录和文件取回方式。上面两条会修改后端和工作目录设置。local 后端以你的电脑账号权限执行操作，专用文件夹用于组织文件，并不是访问隔离。<a href="https://hermes-agent.nousresearch.com/docs/user-guide/configuration/#working-directory">终端后端及工作目录说明</a></p>
-<p><strong>macOS、Linux 或 WSL2</strong>，在电脑终端依次输入：</p>
+<p>这两条会改变后端与工作目录设置。local 以你的账号权限执行，专用文件夹用于整理，不是权限隔离；已有容器或远程环境应按实际环境取回文件。<a href="https://hermes-agent.nousresearch.com/docs/user-guide/configuration/#working-directory">工作目录说明</a></p>
+<p>macOS、Linux 或 WSL2，依次输入：</p>
 <pre><code class="language-bash">mkdir -p ~/Documents/literature_demo
 cd ~/Documents/literature_demo
 hermes
 </code></pre>
-<p><strong>Windows PowerShell</strong>，依次输入：</p>
+<p>Windows PowerShell，依次输入：</p>
 <pre><code class="language-powershell">New-Item -ItemType Directory -Force -Path &quot;$HOME\Documents\literature_demo&quot;
 Set-Location &quot;$HOME\Documents\literature_demo&quot;
 hermes
 </code></pre>
-<p><strong>完成标准：看到 Hermes 对话输入提示，并能正常交谈。</strong> 先发送“请仅回复：准备好了”，确认模型可以回答。接下来所有以“请……”开头的提示词，都发到这个对话输入区。</p>
-<h2>05 下载前做一次可验证的环境检查</h2>
-<p>不要只问 Hermes“你能不能下载论文”。让它执行一个小任务，才能看到联网和文件读写是否实际工作。</p>
-<p><img src="wechat/images/04-preflight.png" alt="图4 下载前的三项环境检查"></p>
-<p><em>图4｜环境检查图。看实际工具结果、文件路径和回读内容。</em></p>
+<p><img src="wechat/images/18-workspace.png" alt="图6 工作目录与文件位置"></p>
+<p><em>图6｜路径指引，非软件截图。后面的练习子文件夹都位于实际工作目录内。</em></p>
+<p><strong>完成标准：进入 Hermes 对话并能正常回答。</strong> 记下后面环境检查返回的绝对路径。Mac 在 Finder“前往文件夹”中粘贴路径；Windows 在资源管理器地址栏粘贴路径。远端路径需从对应环境取回。</p>
+<h2 id="step-05">05 先做一次环境检查</h2>
 <p><strong>复制给 Hermes：</strong></p>
 <blockquote>
 <p>请执行下载前检查，先不要下载论文。  </p>
 <ol>
-<li>实际调用终端工具，报告工作目录、操作系统和运行后端。请区分已确认的信息与无法确认的信息。  </li>
-<li>在当前工作目录创建 _check 文件夹，写入 hello.txt，内容为 hermes-literature-check，再读取该文件核对内容。只操作本次新建文件夹。  </li>
-<li>使用网页搜索查找 arXiv:1706.03762，返回你实际找到的官方记录页面，并打开页面核对题名；不要只凭记忆给出链接。  </li>
-<li>返回检查表，包括使用的工具、成功或失败、错误摘要、测试文件绝对路径。不要输出密钥。  </li>
-<li>任一环节失败，先说明原因，不要继续批量任务。</li>
+<li>实际调用终端，报告当前工作目录、操作系统和运行后端；无法确认的信息明确说明。  </li>
+<li>在当前工作目录新建 _check，写入 hello.txt，内容为 hermes-literature-check，再读取核对。只操作本次新建文件夹。  </li>
+<li>使用网页搜索查找 arXiv:1706.03762，打开实际找到的官方记录页，核对题名。  </li>
+<li>返回使用的工具、各项结果、错误摘要和测试文件绝对路径；不要输出密钥。任一项失败，先处理，不进入批量任务。</li>
 </ol>
 </blockquote>
-<p>检查结果时，关注三个细节：文件确实创建了；回读内容与指定文字一致；联网返回的是实际可访问的记录页。在本机模式下，还应能在 <code>literature_demo/_check/</code> 里找到 hello.txt。</p>
-<p>如果模型只能回答文字，却没有工具执行记录，回到 <code>hermes tools</code> 检查当前平台启用的工具，并重新启动对话。能搜索但不能保存，通常需要进一步检查文件工具、目录权限或后端位置。</p>
-<h2>06 第一篇论文 从明确编号开始</h2>
-<p>首次练习使用 arXiv 上的 <strong>Attention Is All You Need</strong>，编号 <strong>1706.03762</strong>。这篇练习只用于验证获取流程，无须先理解论文内容。<a href="https://arxiv.org/abs/1706.03762">arXiv 官方记录页</a></p>
-<h3>先知道在哪里核对</h3>
-<p>打开记录页，核对题名和编号，再看全文区域中的 PDF 入口。arXiv 的编号可能带版本后缀；记录本次取得的具体版本，便于复查。</p>
-<p><img src="wechat/images/05-arxiv.png" alt="图5 arXiv 页面题名和 PDF 入口的真实截图"></p>
-<p><em>图5｜arXiv 官方页面的局部真实截图，截取日期为 2026 年 10 月 2 日。题名与全文入口分别放大展示；中文标签为阅读引导。页面布局可能随屏幕宽度变化。</em></p>
-<h3>再把下载和记录一起交给 Hermes</h3>
+<p><img src="wechat/images/19-check-result.png" alt="图7 怎样判断检查完成"></p>
+<p><em>图7｜验收对照图，不是 Hermes 已运行的结果截图。</em></p>
+<p>你应找到三项证据：实际目录；hello.txt 的写入与回读；实际访问的记录页和题名。本机还应能打开 <code>_check/hello.txt</code>。只有“检查通过”四个字时，要求补齐证据。能聊天却没有工具记录，回到 <code>hermes tools</code> 检查当前平台。</p>
+<h2 id="step-06">06 下载第一篇，再自己打开验收</h2>
+<p>练习文献：<strong>Attention Is All You Need</strong>，arXiv <strong>1706.03762</strong>。打开<a href="https://arxiv.org/abs/1706.03762">官方记录页</a>，先核对题名和编号，再看 View PDF 入口；记录实际取得的版本。</p>
+<p><img src="wechat/images/05-arxiv.png" alt="图8 arXiv 题名与 PDF 入口"></p>
+<p><em>图8｜arXiv 官方页面局部真实截图，2026 年 10 月 2 日匿名截取。中文标签为引导；页面布局可能变化。</em></p>
 <p><strong>复制给 Hermes：</strong></p>
 <blockquote>
 <p>请获取 arXiv:1706.03762，题名应为 Attention Is All You Need。  </p>
 <ol>
-<li>从 arXiv 官方记录页核对题名、作者、年份和当前可下载版本，使用页面实际提供的 PDF 入口。  </li>
-<li>在当前工作目录创建 01_first_paper，将 PDF 实际保存到该文件夹。下载请求设置超时；每个来源最多重试两次。  </li>
-<li>核验文件类型、能否打开、页数和首页题名。文件扩展名为 .pdf 或网页请求成功，都不能单独作为成功依据。  </li>
-<li>创建 manifest.csv，字段为 title、year、doi、arxiv_id、source_url、version、file_path、status、checked_at、note。未核实字段留空并解释。  </li>
-<li>只有核验通过才将 status 写为 downloaded_verified；失败记录为 download_failed 或 verify_failed，并保留原因。  </li>
-<li>返回文件绝对路径、页数、来源、版本和状态。只操作本次新建文件夹，不覆盖已有文件。</li>
+<li>从官方记录页核对题名、作者、年份及当前可下载版本，使用页面实际 PDF 入口。  </li>
+<li>在当前工作目录新建 01_first_paper，实际保存 PDF；请求设超时，每个来源最多重试两次，不覆盖已有文件。  </li>
+<li>核验文件类型、能否打开、页数和首页题名；扩展名或请求成功不能单独证明下载正确。  </li>
+<li>创建 manifest.csv，记录 title、year、doi、arxiv_id、source_url、version、file_path、status、checked_at、note。未核实字段留空并说明。  </li>
+<li>只有核验通过才记 downloaded_verified；失败记 download_failed 或 verify_failed 并保留原因。返回文件绝对路径、页数、来源、版本及状态。</li>
 </ol>
 </blockquote>
-<p><img src="wechat/images/06-first-paper.png" alt="图6 单篇论文下载任务与完成标准"></p>
-<p><em>图6｜任务步骤图。清单字段和状态名称是本文约定，并非 Hermes 内置固定输出。</em></p>
-<h3>最后由你打开文件验收</h3>
-<p>在 <code>literature_demo/01_first_paper/</code> 找到 PDF，双击打开，再打开 manifest.csv。确认文件能看、首页题名正确、清单有来源和对应路径。</p>
-<p>此时可以给 Hermes 追加一句：“请列出本次生成的文件及大小，并报告 PDF 与 manifest.csv 是否对应。” 文件大小可以帮助发现异常，但没有一个通用大小阈值能证明 PDF 一定正确。</p>
-<p><strong>如果只得到论文链接，补充这句：</strong>“请把全文实际保存到文件夹并重新核验；若保存失败，返回失败原因和需要我处理的步骤。”</p>
-<h2>07 医学文献 用 PMID 找记录 再找全文</h2>
-<p>医学读者常从 PubMed 开始。PubMed 主要提供题录、摘要和全文链接，全文通常要到 PMC、期刊官网或其他提供方取得。<strong>PubMed 记录页本身不能当作论文全文 PDF。</strong><a href="https://pubmed.ncbi.nlm.nih.gov/help/#finding-the-full-text-article">PubMed 全文获取说明</a></p>
-<p>以 <strong>Aplastic Anemia</strong> 为练习：作者 Neal S. Young，2018 年发表，PMID <strong>30354958</strong>，DOI <strong>10.1056/NEJMra1413485</strong>，对应 PMCID <strong>PMC6467577</strong>。这些信息已经在公开题录中核对；本例仅演示获取路径。<a href="https://pubmed.ncbi.nlm.nih.gov/30354958/">示例的 PubMed 记录</a></p>
-<p><img src="wechat/images/07-pubmed.png" alt="图7 医学文献题录与全文入口核对卡"></p>
-<p><em>图7｜根据 PubMed 官方记录核对的题录指令卡，不是软件截图。看清 PMID、DOI、PMCID，再使用记录页的 Full text links 判断全文入口。</em></p>
-<p><strong>手动核对时这样做：</strong> 打开 PubMed，输入 PMID；在记录页核对题名与标识符；查看 Full text links。若有 PMC 入口，可进入全文页面核对稿件类型。期刊官网入口也可能需要机构订阅。</p>
+<p><img src="wechat/images/20-open-download.png" alt="图9 下载后打开文件核对"></p>
+<p><em>图9｜文件验收指引，非实际下载结果。</em></p>
+<p>在实际输出目录找到 PDF，打开首页核对题名和作者，再看正文与参考文献；最后打开 manifest.csv，对照路径、来源和版本。<strong>文件与清单应互相对应。</strong> 只返回链接时，追加：“请把全文实际保存到文件夹并核验；失败则说明原因和下一步。”</p>
+<h2 id="step-07">07 医学文献：题录与全文分开获取</h2>
+<p>PubMed 提供题录、摘要和全文链接；全文通常来自 PMC、期刊或其他提供方。<strong>PubMed 记录页不能当作全文 PDF。</strong><a href="https://pubmed.ncbi.nlm.nih.gov/help/#finding-the-full-text-article">PubMed 全文说明</a></p>
+<p>练习例：<strong>Aplastic Anemia</strong>，Neal S. Young，2018；PMID <strong>30354958</strong>，DOI <strong>10.1056/NEJMra1413485</strong>，PMCID <strong>PMC6467577</strong>。<a href="https://pubmed.ncbi.nlm.nih.gov/30354958/">示例题录</a></p>
+<p><img src="wechat/images/07-pubmed.png" alt="图10 医学题录核对卡"></p>
+<p><em>图10｜依据 PubMed 官方记录制作的题录卡，非软件截图。手动查看 Full text links，再核对全文版本。</em></p>
 <p><strong>复制给 Hermes：</strong></p>
 <blockquote>
 <p>请处理 PMID:30354958，题名应为 Aplastic Anemia。  </p>
 <ol>
-<li>先在 PubMed 核对题名、作者、年份、DOI 和 PMCID，报告是否与输入对应。  </li>
-<li>查找能够合法获取的全文来源，优先核对期刊官网和公开仓储。标明取得的是发表版、作者接受稿还是其他版本。  </li>
-<li>如果从 PMC 自动获取内容，先读取当前 PMC 官方开发者和 Article Datasets 文档，使用允许的自动获取服务。不要把批量任务写成网页循环抓取，也不要沿用已停用的旧 OA Web Service。  </li>
-<li>在当前工作目录创建 02_medical_example。能取得 PDF 就保存并核验；只有 HTML、XML 或 TXT 全文时，保留真实格式并标记 fulltext_other。  </li>
-<li>将题录、来源、版本、路径、获取时间和状态写入 manifest.csv。不能取得全文时，标记 needs_access、not_found 或 download_failed，并给出下一步。  </li>
-<li>返回结果和文件路径；不得用摘要替代全文，不得将网页文件改名为 PDF。</li>
+<li>在 PubMed 核对题名、作者、年份、DOI 和 PMCID，确认与输入对应。  </li>
+<li>查找合法全文，核对期刊官网和公开仓储；注明发表版、作者接受稿或其他版本。  </li>
+<li>从 PMC 自动获取时，先查当前开发者及 Article Datasets 文档，使用允许的服务；不要循环抓取网页或沿用停用的旧 OA Web Service。  </li>
+<li>新建 02_medical_example，能取得 PDF 就保存核验；只有 HTML、XML 或 TXT 全文时保留真实格式，记 fulltext_other。  </li>
+<li>将题录、来源、版本、路径、时间和状态写入 manifest.csv；不能取得时记录 needs_access、not_found 或 download_failed 及下一步。不得用摘要替代全文。</li>
 </ol>
 </blockquote>
-<p><img src="wechat/images/08-fulltext.png" alt="图8 从题录到全文的获取路径"></p>
-<p><em>图8｜全文获取路径图。题录定位、访问权限和文件格式分别检查。</em></p>
-<p><strong>PMC 路线有一项时间变化需要记住。</strong> 2026 年 8 月，PMC 完成 Article Dataset 分发服务调整，旧版数据文件已移除。当前自动获取应参考官方开发者文档，使用 PMC Cloud Service、OAI-PMH、E-Utilities 或 BioC 等允许的服务。需要数据集中的 PDF 时，查看 Cloud Service 是否提供该文件；并非所有全文或作者手稿都有可获取的 PDF。<a href="https://pmc.ncbi.nlm.nih.gov/tools/textmining/">PMC 数据集更新与格式说明</a>、<a href="https://pmc.ncbi.nlm.nih.gov/tools/developers/">当前自动获取说明</a>、<a href="https://pmc.ncbi.nlm.nih.gov/tools/cloud/">Cloud Service 文件说明</a></p>
-<p>如果已有 DOI，还可以将 <strong>Unpaywall</strong> 作为开放全文线索。它提供开放位置、PDF 链接、版本等字段；查到开放位置后，仍需实际打开和核验。<code>url_for_pdf</code> 可能为空，公开页面可读也不等于可以任意转发原文。<a href="https://unpaywall.org/data-format">Unpaywall 数据字段说明</a></p>
-<p>需要医院或学校订阅时，通过机构提供的正式入口获取；把需要人工处理的项目留在清单中。这类情况的任务成果，是明确访问状态和下一步，而不是反复请求同一个登录页。</p>
-<h2>08 清单下载 先清洗 再小批量获取</h2>
-<p>第一篇跑通后，再尝试已有文献清单。最容易上手的输入是 UTF-8 编码的 CSV：第一行是字段名，每行一条记录，尽量提供 DOI 或 PMID。</p>
-<p>下面是一份可以直接练习的三行清单。最后两行故意对应同一篇论文，用来观察 Hermes 是否能识别重复记录。</p>
+<p><strong>PMC 的旧分发路线已调整。</strong> 2026 年 8 月完成 Article Dataset 调整，旧版数据文件已移除。自动获取参考当前允许的 Cloud Service、OAI-PMH、E-Utilities、BioC 等服务；需要 PDF 时核对 Cloud 数据集是否提供该文件，并非每篇都有 PDF。<a href="https://pmc.ncbi.nlm.nih.gov/tools/textmining/">PMC 数据集</a>、<a href="https://pmc.ncbi.nlm.nih.gov/tools/developers/">开发者说明</a>、<a href="https://pmc.ncbi.nlm.nih.gov/tools/cloud/">Cloud Service</a></p>
+<p>有 DOI 可用 <a href="https://unpaywall.org/data-format">Unpaywall</a> 查开放位置和版本，PDF 链接可能为空。订阅文献使用医院或学校正式入口；需要人工获取的项目留在清单中。</p>
+<h2 id="step-08">08 用 CSV 练习去重和小批下载</h2>
+<p>Excel 新建 <code>title</code>、<code>doi</code>、<code>pmid</code> 三列，每行一篇，空字段留空，保存为“CSV UTF-8”。不合并单元格；题名有英文逗号需正确使用 CSV 引号。初次直接用素材包的 <code>papers.csv</code>，放入工作目录即可。</p>
+<p><img src="wechat/images/21-csv-workflow.png" alt="图11 准备清单"></p>
+<p><em>图11｜CSV 准备指引，非 Excel 截图。字段标题不计为论文。</em></p>
+<p>练习文件内容如下，三条数据对应两篇文献：</p>
 <pre><code class="language-csv">title,doi,pmid
 Attention Is All You Need,10.48550/arXiv.1706.03762,
 Aplastic Anemia,,30354958
 Aplastic Anemia,10.1056/NEJMra1413485,
 </code></pre>
-<p>保存为 <code>papers.csv</code>，放在 <code>literature_demo</code> 文件夹。也可以从配套素材包取用。Excel 用户可以选择“CSV UTF-8”格式；准备自己的数据时，题名里有英文逗号应正确使用 CSV 引号，避免拆成多列。</p>
-<p><img src="wechat/images/09-batch.png" alt="图9 清单清洗下载和记录的操作顺序"></p>
-<p><em>图9｜批量操作图。先核对输入与重复项，再下载；三行示例应定位到两篇不同文献。</em></p>
-<h3>先检查清单 不急着下载</h3>
+<p><strong>先检查，不下载：</strong></p>
+<blockquote>
+<p>请读取当前工作目录的 papers.csv，先不要下载。检查字段、数据行数和空值；规范化 DOI，按 DOI、PMID 与实际题录对应关系去重。仅题名相似的项目不能直接合并。输出 input_checked.csv，保留每条输入行号、处理结果和核对依据；不要补造编号。返回原始行数、重复映射、唯一文献数及待确认项。</p>
+</blockquote>
+<p><img src="wechat/images/22-duplicate-map.png" alt="图12 三条输入对应两篇文献"></p>
+<p><em>图12｜教学映射，非 Hermes 运行结果。第 2、3 条使用不同编号，实际指向同一篇 Aplastic Anemia。</em></p>
+<p>示例应得到<strong>三条输入、两篇不同文献</strong>；重复输入保留映射，下载时只处理一次。题名相似或预印本与发表版关系未确认时，保留待核对。</p>
+<p><strong>再处理第一小批：</strong></p>
+<blockquote>
+<p>请按已核对清单获取全文，本次最多五篇不同文献。逐篇确认身份、找来源、下载并核验，串行执行；限流按要求等待，每个来源最多重试两次。PMC 使用当前允许服务。新建 03_batch/pdf、03_batch/fulltext_other 和 03_batch/metadata，避免覆盖文件。每处理一篇更新 metadata/manifest.csv，记录输入行号、题名、DOI、PMID、来源、版本、路径、状态、原因和时间；失败也保留。保存 README.txt，返回输入数、唯一文献数、各状态数量与清单路径，不扩展范围。</p>
+</blockquote>
+<p>打开本批文件和清单，确认无误配、覆盖或版本混乱，再增加数量。其他格式全文单独统计，不计为已核验 PDF。</p>
+<h2 id="step-09">09 只有研究主题，先生成候选清单</h2>
+<p>先限定对象、主题、年份和数量。下面用于检索练习，不代表完整系统综述策略。</p>
 <p><strong>复制给 Hermes：</strong></p>
 <blockquote>
-<p>请读取当前工作目录的 papers.csv，先不要下载。<br>检查字段、数据行数和空值；将 DOI 去除网址前缀与首尾空格，并以规范化 DOI、PMID 及题录对应关系识别重复。只有题名相似但身份未确认的项目，标记待核对，不能直接合并。<br>输出 input_checked.csv，保留每个原始行号和处理结果；另列需要下载的不同文献。所有字段值都应来自输入或实际核对，不要补造标识符。<br>返回原始行数、重复关系、唯一文献数量和需要人工确认的项目。</p>
+<p>请查找获得性再生障碍性贫血与造血干细胞移植文献，范围 2021-01-01 至 2026-10-02。先不下载；提出 PubMed 检索式，解释关键词、字段、日期及如何区分获得性疾病与遗传性骨髓衰竭。实际检索后列十篇候选，记录题名、作者、年份、研究类型、DOI、PMID、题录链接、全文状态和入选原因。报告实际检索式、日期、排序和结果范围，不声称十篇覆盖全部证据；摘要可确认的内容与需阅读全文确认的内容分开，不推断缺失信息。</p>
 </blockquote>
-<p>练习清单应报告三条输入、两篇不同文献，并说明两条 Aplastic Anemia 记录为什么对应同一篇论文。如果没有识别出来，先要求它核对 PMID 与 DOI 的关系，再进行获取。</p>
-<h3>再处理第一小批</h3>
-<p><strong>复制给 Hermes：</strong></p>
-<blockquote>
-<p>请按刚核对的清单获取全文，先处理最多五篇不同文献。  </p>
-<ol>
-<li>逐篇确认身份、查找来源、下载并核验，串行执行；遇到限流按服务要求等待，每个来源最多重试两次。PMC 内容使用当前官方允许的自动获取服务。  </li>
-<li>在当前工作目录创建 03_batch/pdf、03_batch/fulltext_other 和 03_batch/metadata。PDF 与其他全文分别保存，避免覆盖已有文件。  </li>
-<li>将清单写入 03_batch/metadata/manifest.csv，至少记录原始行号、题名、DOI、PMID、来源、版本、路径、状态、原因和时间。每处理完一篇即更新。  </li>
-<li>保存处理说明到 README.txt；失败项目也必须保留，不要只汇报成功项。  </li>
-<li>返回输入行数、去重后数量、各状态数量和清单路径。本次最多处理五篇，不要扩展到其他文献。</li>
-</ol>
-</blockquote>
-<p>先看这批的文件和记录。确认没有误配、重复覆盖或版本混乱后，再把数量提高。将任务拆成多个小批次，也更方便观察模型用量和网页服务限流。</p>
-<h2>09 只有研究主题时 先得到可核对的候选清单</h2>
-<p>“帮我下载所有再生障碍性贫血的论文”范围太大。更容易执行的做法是先给出研究对象、主题、年份和数量，再让 Hermes 提出检索式。</p>
-<p>下面是一个医学检索练习。它用于训练检索与记录流程，不代表完整的系统综述检索策略。</p>
-<p><strong>复制给 Hermes：</strong></p>
-<blockquote>
-<p>我想查找获得性再生障碍性贫血与造血干细胞移植的文献，时间范围为 2021-01-01 至 2026-10-02。<br>先不要下载，请提出 PubMed 检索式，解释关键词、字段和日期范围，并说明如何区分获得性疾病与遗传性骨髓衰竭。<br>检索后先给我十篇候选文献，逐条记录题名、作者、年份、研究类型、DOI、PMID、题录链接、全文状态和初步入选原因。报告实际执行的检索式、检索日期、排序方式和结果范围，不要声称十篇就覆盖全部证据。<br>从题录或摘要可以确认的内容，与需要阅读全文才能确认的内容分开标注。不得推断缺失信息。</p>
-</blockquote>
-<p>你核对候选清单并选定文献后，再发送：“请仅获取我选中的文献，沿用前文的保存、核验和状态记录要求。”</p>
-<p>这一步让人保留对研究范围和纳入标准的判断。下载齐了几份文件，并不意味着已经完成文献质量评价或临床证据分析。</p>
-<h2>10 下载后 用四项检查确认全文可用</h2>
-<p><img src="wechat/images/10-verify.png" alt="图10 PDF 的四项核验"></p>
-<p><em>图10｜核验清单。文件格式、文献身份、正文完整性和版本都应检查。</em></p>
-<p><strong>第一项，文件能不能打开。</strong> 让工具解析 PDF，同时由你打开确认。HTML 登录页、错误页即使被命名为 <code>.pdf</code>，仍然不是 PDF。反过来，一个能解析的 PDF 也可能是下载提示页，仍要继续看内容。</p>
-<p><strong>第二项，是不是同一篇论文。</strong> 将首页题名、作者与清单比较，并在可见处核对 DOI 或其他标识符。题名大小写和排版差异不一定是错误，但研究主题相似不能证明身份相同。</p>
-<p><strong>第三项，是否为目标全文。</strong> 核对正文和参考文献是否存在；把正文、补充材料、勘误和摘要分开。记录页数有助于复查，但不能只凭页数判断完整性。</p>
-<p><strong>第四项，版本和来源是否说得清。</strong> 作者接受稿、预印本和发表版可以有不同排版甚至内容。清单注明版本、来源 URL 和获取时间；无法确认版本时就写“待核对”。</p>
-<p>状态建议统一成下面几类。它们是本教程的记录约定，便于筛选和续做：</p>
+<p>你选定后，再让它仅获取选中的文献，沿用保存与核验要求。下载完成不等于完成质量评价或临床证据分析。</p>
+<h2 id="step-10">10 核验全文，记录状态与版本</h2>
+<p><img src="wechat/images/10-verify.png" alt="图13 PDF 的四项核验"></p>
+<p><em>图13｜核验清单。格式、身份、全文与版本分别检查。</em></p>
+<p>让工具解析 PDF，同时由你打开；看首页题名与作者、正文和参考文献。能解析的 PDF 也可能只是提示页，页数本身不能证明完整。</p>
+<p><img src="wechat/images/23-version-record.png" alt="图14 版本记录"></p>
+<p><em>图14｜版本指引，非软件截图。同一研究可以有多个版本。</em></p>
+<p>记录 <code>version</code>、<code>source_url</code> 和获取时间；arXiv 保留实际版本号，仓储注明作者接受稿，无法确认写待核对。文件可按 <code>YYYY_Author_ShortTitle_Version.pdf</code> 命名，重名时保留原文件。</p>
+<p>以下状态是本文约定，并非 Hermes 内置固定输出：</p>
 <table>
 <thead>
 <tr>
 <th>状态</th>
-<th>何时使用</th>
+<th>含义</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>downloaded_verified</td>
-<td>PDF 已保存并通过核验</td>
+<td>PDF 已保存且通过核验</td>
 </tr>
 <tr>
 <td>fulltext_other</td>
-<td>已取得 HTML、XML、TXT 等其他格式全文</td>
+<td>已取得其他格式全文</td>
 </tr>
 <tr>
 <td>needs_access</td>
-<td>需要机构订阅、登录或人工获取</td>
+<td>需要订阅、登录或人工获取</td>
 </tr>
 <tr>
 <td>not_found</td>
-<td>本次查找没有找到合适的全文入口</td>
+<td>本次未找到合适全文入口</td>
 </tr>
 <tr>
 <td>download_failed</td>
-<td>已尝试获取，但文件保存失败</td>
+<td>全文获取或保存失败</td>
 </tr>
 <tr>
 <td>verify_failed</td>
-<td>文件取得了，但格式、身份或内容检查未通过</td>
+<td>文件格式、身份或内容未通过</td>
 </tr>
 </tbody></table>
-<p>重复项在 <code>input_checked.csv</code> 中保留映射，不再重复计为待下载文献。汇报时，输入记录数、唯一文献数、已处理数和未处理数分别说明；“本次没找到”也不能扩大为“这篇论文没有全文”。</p>
-<p><img src="wechat/images/11-archive.png" alt="图11 全文文件和记录的归档结构"></p>
-<p><em>图11｜本文建议的文件结构示例，非实际下载结果。文件路径应以你的运行环境为准。</em></p>
-<p><strong>让 Hermes 做一次收尾核对：</strong></p>
+<p>配套 <code>manifest-template.csv</code> 只有字段标题，是空白模板；<code>input-checked-example.csv</code> 是教学映射，都不是已下载成果。</p>
+<p><img src="wechat/images/11-archive.png" alt="图15 文件与记录一起归档"></p>
+<p><em>图15｜建议目录结构，非实际执行结果。</em></p>
+<p><strong>收尾核对：</strong></p>
 <blockquote>
-<p>请检查本次输出文件夹，逐条核对 manifest.csv 与实际文件。<br>找出有记录却缺文件、有文件却无记录、重复文件和 verify_failed 项目；不要删除或覆盖文件。<br>生成检查报告，并分别统计已处理和未处理文献。仅 downloaded_verified 计入核验通过的 PDF；fulltext_other 单独统计。<br>列出需要我人工打开、取得权限或确认版本的项目。</p>
+<p>请逐条核对 manifest.csv 与实际文件，找出缺文件、缺记录、重复文件及 verify_failed 项目，不删除或覆盖。生成检查报告，分别统计原始输入、唯一文献、已处理和未处理数；downloaded_verified 与 fulltext_other 分开。列出需人工打开、取得权限或确认版本的项目。</p>
 </blockquote>
-<h2>11 卡住了 按失败位置继续处理</h2>
-<p><img src="wechat/images/12-troubleshoot.png" alt="图12 常见问题的排查顺序"></p>
-<p><em>图12｜排错指令卡。找到失败环节后，处理对应问题，再继续未完成项。</em></p>
-<p><strong>Hermes 命令无法运行。</strong> 回到安装步骤，重开终端后执行 <code>hermes --help</code>。如果依旧失败，查看官方安装指南中的 PATH 和安装位置说明。</p>
-<p><strong>模型能回答，但任务没执行。</strong> 检查当前 CLI 平台的工具是否启用，用环境检查提示词验证实际调用。安装成功和模型能聊天，是两项不同的检查。</p>
-<p><strong>搜索有结果，提取失败。</strong> 查看网页服务是否只支持搜索，回到 <code>hermes tools</code> 配置提取能力。需要点击页面的任务，再配置浏览器。抓到的网页文字与磁盘上的 PDF，分别验收。</p>
-<p><strong>返回 401、403 或 429。</strong> 401 通常需要检查认证；403 需要核对访问权限、来源和服务配置；429 表示请求受到限流，按服务提示等待或缩小批量。不要重复无间隔请求。</p>
-<p><strong>说已保存，但电脑里找不到。</strong> 要求它通过终端重新列出文件，返回绝对路径和运行后端。本机、容器、远程服务器中的同名路径可能是不同位置；远程运行需要按环境取回文件。</p>
-<p><strong>PDF 打不开或内容不对。</strong> 将状态改为 verify_failed，重新核对题录与真实下载入口。不要用重新命名扩展名的方式“修复”。</p>
-<p>需要检查 Hermes 配置状态时，可以退出对话，或另开一个电脑终端，运行以下诊断命令。先读报告，再处理具体问题。<a href="https://hermes-agent.nousresearch.com/docs/reference/cli-commands/">CLI 诊断命令说明</a></p>
+<h2 id="step-11">11 按失败环节排查，再续做</h2>
+<p><img src="wechat/images/12-troubleshoot.png" alt="图16 排错顺序"></p>
+<p><em>图16｜排错指令卡，非软件截图。先找失败环节，再处理未完成项。</em></p>
+<p>命令打不开查安装与 PATH；能聊天不执行查当前平台工具；能搜索不提取查服务能力；说已保存却找不到，重新列绝对路径与后端。401 核对认证，403 核对权限和来源，429 按提示等待或缩小批量；PDF 内容不对标记 verify_failed。</p>
+<p>另开电脑终端检查状态：</p>
 <pre><code class="language-text">hermes status
 hermes doctor
 </code></pre>
-<p>任务中断后，可以用 <code>hermes --continue</code> 恢复最近会话。恢复对话只会恢复已有会话上下文；接着依据磁盘清单续做，才容易避免重复下载。<a href="https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/#4-verify-sessions-work">会话恢复说明</a></p>
-<p><strong>复制给 Hermes：</strong></p>
+<p>用 <code>hermes --continue</code> 可恢复最近会话，继续任务仍要依据磁盘清单。<a href="https://hermes-agent.nousresearch.com/docs/reference/cli-commands/">诊断命令</a>、<a href="https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/#4-verify-sessions-work">恢复说明</a></p>
+<p><strong>续做提示词：</strong></p>
 <blockquote>
-<p>请读取现有 manifest.csv 和实际文件。先核验 downloaded_verified 项目是否仍存在，不重复下载。<br>列出待处理项目，只继续我指定的 download_failed 和 not_found 项目。verify_failed 项目先排查原因；needs_access 项目列为人工待办。<br>保留原记录和既有文件，追加本次尝试时间、来源与结果，并更新状态。</p>
+<p>请读取现有 manifest.csv 和文件，核对 downloaded_verified 项目仍在，不重复下载。列出待办，只继续我指定的 download_failed 和 not_found；verify_failed 先排查，needs_access 留为人工待办。保留已有文件和记录，追加本次时间、来源及结果并更新状态。</p>
 </blockquote>
-<h2>12 今天就从一篇论文开始</h2>
-<p>如果你第一次使用 Hermes，按这条顺序就可以开始：安装并打开命令帮助；完成模型、工具和文件测试；获取 arXiv:1706.03762；自己打开 PDF；核对清单，再做三行 CSV 的去重练习。</p>
-<p>等这一轮稳定完成，再把自己的课题文献带进去。持续保留来源、版本和失败原因，后续补全文、整理引用和重新核查都会更方便。</p>
-<p><em>核验说明：命令与功能依据官方文档核对；图5使用匿名访问 arXiv 公开页面取得的真实局部截图，其余操作图为指令卡或流程图。本文没有将提示词模板表述为已运行的 Hermes 下载实测，执行结果需在读者环境中验收。</em></p>
-<p><em>全文获取和后续分享按来源的访问权限与使用条款处理。公众号文章可以分享获取方法和题录链接，转发论文原文前还应核对该文件的许可。</em></p>
+<p><strong>需要报错帮助时：</strong></p>
+<blockquote>
+<p>任务停在〔阶段〕，实际错误为〔摘要〕，工具为〔名称〕，文献编号为〔编号〕，目录为〔路径〕。请先检查失败环节，区分已确认原因与待验证项，给出下一步最小操作；暂不扩展批量。以上内容已遮去密钥与登录令牌。</p>
+</blockquote>
+<h2 id="step-12">12 跑通一篇，再带入自己的课题</h2>
+<p>第一次只需完成：<strong>命令可用、工具实际执行、全文能打开、清单可对应。</strong> 再用三条 CSV 记录练习去重，最后换成自己的课题。来源、版本和失败原因保留完整，后续补全文和整理引用更方便。</p>
+<p><em>核验说明：命令与功能依据官方文档核对；图8为真实页面局部截图，其余为指令卡或流程图。本教程未在本机执行 Hermes 论文下载，任务模板的结果需在读者环境验收。</em></p>
+<p><em>发表与分享：文章可以分享获取方法和题录链接；转发论文原文前核对许可。公众号导入、补图和手机预览步骤见配套发表指南。</em></p>
 </article></main><div class="toast"></div><script>const inlineStyles=()=>{let c=document.getElementById('article').cloneNode(true);c.querySelectorAll('p').forEach(e=>e.style.cssText='margin:16px 0;color:#253d45;font-size:16px;line-height:1.85');c.querySelectorAll('h1').forEach(e=>e.style.cssText='font-size:25px;line-height:1.5;color:#173c49;margin:0 0 22px');c.querySelectorAll('h2').forEach(e=>e.style.cssText='font-size:21px;color:#117d7c;line-height:1.5;margin:34px 0 18px');c.querySelectorAll('h3').forEach(e=>e.style.cssText='font-size:18px;line-height:1.5;margin:24px 0 12px');c.querySelectorAll('img').forEach(e=>{e.src=e.src;e.style.cssText='width:100%;height:auto;display:block;margin:18px auto 8px'});c.querySelectorAll('blockquote').forEach(e=>e.style.cssText='background:#f0f8f6;border-left:3px solid #159185;margin:18px 0;padding:15px;font-size:15px;line-height:1.85');c.querySelectorAll('pre').forEach(e=>e.style.cssText='white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;background:#173b49;color:#e2f8f0;padding:16px;font-size:13px;line-height:1.8');c.querySelectorAll('a').forEach(e=>e.style.cssText='color:#197b82;text-decoration:underline');c.querySelectorAll('em').forEach(e=>e.style.cssText='font-style:normal;font-size:13px;color:#6e8188;line-height:1.7');c.querySelectorAll('th,td').forEach(e=>e.style.cssText='border:1px solid #d7e5e6;padding:8px;font-size:13px;text-align:left');c.querySelectorAll('table').forEach(e=>e.style.cssText='border-collapse:collapse;width:100%;table-layout:fixed');c.querySelectorAll('button').forEach(e=>e.remove());return c.innerHTML};const show=s=>{const e=document.querySelector('.toast');e.textContent=s;e.style.display='block';setTimeout(()=>e.style.display='none',5000)};document.getElementById('copy-article').onclick=async()=>{try{const h=inlineStyles(),d=new DOMParser().parseFromString(h,'text/html');await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([h],{type:'text/html'}),'text/plain':new Blob([d.body.textContent],{type:'text/plain'})})]);show('正文已复制。粘贴后请核对图片和链接。')}catch(e){const sel=getSelection(),range=document.createRange();range.selectNodeContents(document.getElementById('article'));sel.removeAllRanges();sel.addRange(range);const ok=document.execCommand('copy');sel.removeAllRanges();show(ok?'正文已复制。图片请按使用说明核对。':'请选中正文复制，并按图号上传图片。')}};document.querySelectorAll('pre,blockquote').forEach(el=>{let text=el.innerText.trim();const btn=document.createElement('button');btn.className='copy';btn.textContent=el.tagName==='PRE'?'复制命令或内容':'复制提示词';btn.onclick=async()=>{try{await navigator.clipboard.writeText(text);btn.textContent='已复制'}catch(e){show('请选中该段文字复制')}};el.appendChild(btn)});</script></body></html>

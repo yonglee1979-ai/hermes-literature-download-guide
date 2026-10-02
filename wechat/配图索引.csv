@@ -1,0 +1,29 @@
+﻿scope,figure_no,file,description,kind
+封面,封面,images/00-cover.png,Hermes Agent 文献下载图文教程封面,原创封面
+正文,1,images/14-identifiers.png,图1 文献标识符对照,操作指引或流程图
+正文,2,images/15-open-terminal.png,图2 打开终端与进入 Hermes,操作指引或流程图
+正文,3,images/02-install.png,图3 官方安装命令,操作指引或流程图
+正文,4,images/16-model-auth.png,图4 选择模型与认证,操作指引或流程图
+正文,5,images/17-tool-matrix.png,图5 文献任务需要的工具,操作指引或流程图
+正文,6,images/18-workspace.png,图6 工作目录与文件位置,操作指引或流程图
+正文,7,images/19-check-result.png,图7 怎样判断检查完成,操作指引或流程图
+正文,8,images/05-arxiv.png,图8 arXiv 题名与 PDF 入口,arXiv官方页面局部截图
+正文,9,images/20-open-download.png,图9 下载后打开文件核对,操作指引或流程图
+正文,10,images/07-pubmed.png,图10 医学题录核对卡,操作指引或流程图
+正文,11,images/21-csv-workflow.png,图11 准备清单,操作指引或流程图
+正文,12,images/22-duplicate-map.png,图12 三条输入对应两篇文献,操作指引或流程图
+正文,13,images/10-verify.png,图13 PDF 的四项核验,操作指引或流程图
+正文,14,images/23-version-record.png,图14 版本记录,操作指引或流程图
+正文,15,images/11-archive.png,图15 文件与记录一起归档,操作指引或流程图
+正文,16,images/12-troubleshoot.png,图16 排错顺序,操作指引或流程图
+发表指南,P1,images/P1-materials.png,图P1 公众号发表需要的文件,操作指引，非软件截图
+发表指南,P2,images/P2-paste.png,图P2 复制与粘贴正文的顺序,操作指引，非软件截图
+发表指南,P3,images/P3-images.png,图P3 封面与正文配图的处理,操作指引，非软件截图
+发表指南,P4,images/P4-preview.png,图P4 手机预览和最终发表,操作指引，非软件截图
+补充图,S1,images/01-inputs.png,01-inputs,操作指引或流程图，非软件截图
+补充图,S2,images/03-setup.png,03-setup,操作指引或流程图，非软件截图
+补充图,S3,images/04-preflight.png,04-preflight,操作指引或流程图，非软件截图
+补充图,S4,images/06-first-paper.png,06-first-paper,操作指引或流程图，非软件截图
+补充图,S5,images/08-fulltext.png,08-fulltext,操作指引或流程图，非软件截图
+补充图,S6,images/09-batch.png,09-batch,操作指引或流程图，非软件截图
+补充图,S7,images/13-roadmap.png,13-roadmap,操作指引或流程图，非软件截图
