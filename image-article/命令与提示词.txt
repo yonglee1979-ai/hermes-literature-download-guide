@@ -1,6 +1,6 @@
-Hermes 文献下载 · v4.0.0
+Hermes 文献下载 · v4.0.1
 命令输入电脑终端；任务模板输入 Hermes 对话区。命令多行时逐行执行。
-本文件为配套复制材料，公众号正文仅 20 张图片。
+文章正文含完整阅读指引；本文件方便电脑端复制。
 
 05 macOS / Linux / WSL2 安装
 curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
