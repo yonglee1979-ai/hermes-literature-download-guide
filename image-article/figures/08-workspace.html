@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><link rel="stylesheet" href="../style.css"><body><article class="card "><div class="eyebrow"><span>HERMES · 文献下载图解</span><span>08 / 20</span></div><h1>第四步：<br>把“工作台”摆好</h1><div class="subtitle">在电脑上建立 literature_demo 文件夹</div><div class="content"><section class="box "><h3>本教程使用本机执行后端</h3><pre class="smcode">hermes config set terminal.backend local
+hermes config set terminal.cwd .</pre></section><section class="box "><h3>macOS / Linux / WSL2</h3><pre class="smcode">mkdir -p ~/Documents/literature_demo
+cd ~/Documents/literature_demo
+hermes</pre></section><section class="box "><h3>Windows PowerShell</h3><pre class="smcode">Set-Location &quot;$HOME\Documents&quot;
+mkdir literature_demo
+Set-Location literature_demo
+hermes</pre></section><div class="talk"><div class="robot" style="--s:310px;background-position:100% 0%"></div><div class="bubble">上面每行单独执行。<br>已有同名文件夹就跳过创建。<br>进入文件夹后再启动我。</div></div><aside>本机后端会操作电脑文件；指定文件夹是任务范围，不是权限隔离。</aside></div><div class="footer">命令卡 · 如已有容器或服务器配置，先确认真实运行位置</div></article></body></html>
